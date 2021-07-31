@@ -1,0 +1,11 @@
+{
+    "$schema": "./node_modules/ng-packagr/package.schema.json",
+    "lib": {
+      "entryFile": "./src/public_api.ts"
+    },
+    "assets": [
+      "./node_modules/flexboxgrid/css/flexboxgrid.min.css"
+    ],
+    "allowedNonPeerDependencies": ["."],
+    "whitelistedNonPeerDependencies": ["."]
+  }
