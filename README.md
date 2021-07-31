@@ -7,16 +7,14 @@ Set of Angular directives based on [Flexbox Grid](http://flexboxgrid.com/). It's
 
 npm i ng-flex-grid
 
-## Import
+## Imports
 
-Import AngularGrid on any module.
-
-Example on app.module.ts
+Import NgFlexGrid on any module.
 
 ```
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AngularGrid } from 'src/directives/directives.module';
+import { NgFlexGrid } from 'src/directives/directives.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -25,7 +23,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AngularGrid
+    NgFlexGrid
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -33,6 +31,15 @@ import { AppComponent } from './app.component';
 export class AppModule { }
 
 ```
+Add "node_modules/flexboxgrid/css/flexboxgrid.min.css"  to angular.json file
+
+```
+  "styles": [
+      "src/styles.css",
+      "node_modules/flexboxgrid/css/flexboxgrid.min.css"  
+  ]
+```
+
 ## Usage
 ```
 <div grid [fluid]="true">
@@ -67,4 +74,5 @@ export class AppModule { }
  ```
 
  ### Author
+ 
 @[Felipe C. Bento](https://www.linkedin.com/in/felipe-bento/)

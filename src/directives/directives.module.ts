@@ -20,4 +20,4 @@ import { BrowserModule } from '@angular/platform-browser';
     RowDirective
   ]
 })
-export class AngularGrid { }
+export class NgFlexGrid { }

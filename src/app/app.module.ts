@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AngularGrid } from 'src/directives/directives.module';
+import { NgFlexGrid } from 'src/directives/directives.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AngularGrid
+    NgFlexGrid
   ],
   providers: [],
   bootstrap: [AppComponent]
