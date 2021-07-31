@@ -5,24 +5,20 @@ Set of Angular directives based on [Flexbox Grid](http://flexboxgrid.com/). It's
 
 ## Install
 
+```
 npm i ng-flex-grid
+```
 
 ## Imports
 
 Import NgFlexGrid on any module.
 
 ```
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { NgFlexGrid } from 'src/directives/directives.module';
-import { AppComponent } from './app.component';
+import { NgFlexGrid } from 'ng-flex-grid';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [],
   imports: [
-    BrowserModule,
     NgFlexGrid
   ],
   providers: [],
